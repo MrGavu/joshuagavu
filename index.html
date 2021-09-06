@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Joshua Gavu </title>
-    <link rel="shortcut icon" type="image/png" href="round-favicon-1.png">
+    <title> Joshua Gavu - Product Designer </title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.css">
     <style>
         
         * {
-            background-color: #2b2b2b;
+            
             margin: 0px;
             padding: 0px;
             box-sizing: border-box;
@@ -18,22 +20,22 @@
 
 
         body {
+            background-color: #0f0f0f;
             height: 100vh;
             display:flex;
             justify-content: center;
-            text-align: center;
-            overflow: hidden;
+            text-align: left;
         }
 
         .email-button {
-            margin: 15px 0px; 
+            margin: 15px 10px; 
             background-color: white;
             height: 40px;
             width: 100px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            padding: 10px 0px;
+            padding: 0px 10px;
             font-size: 16px;
         }
 
@@ -63,30 +65,70 @@
         .email-button:hover{
             background-color: #ececec;
         }
+        
+        .ex {
+            -webkit-background-clip: text;
+            background-image: linear-gradient(to right, #1de9b6, #2979ff);
+            -webkit-text-fill-color: transparent;
+            color: #464646;
+        }
+
+        .x{
+            padding: 0 10px;
+        }
+        
 
         @media screen and (min-width:1024px){
 
         body {
-            margin:auto;
-            width: 500px;
-            height: 100vh;
-            display:flex;
-            justify-content: center;
-            text-align: center;
+            height: 100px;
+            width: 50%;
+            margin: 200px;
+            /* height: 100vh; */
+            text-align: left;
+    
+            
+        }
+
+        .x {
+            font-size: 32px;
+           }
+
+        h1 {
+            font-weight: 900;
+        }
+
+        .main-content {
+            background-color: #141414;
+            border-radius: 10px;
+            padding: 30px;
+        }
+
+        p {
+            color: #ffffff;
+            font-size: 24px;
+            line-height: 1.5em;
+        }
+
+        .ex {
+            -webkit-background-clip: text;
+            background-image: linear-gradient(to right, #1de9b6, #2979ff);
+            -webkit-text-fill-color: transparent;
+            color: #464646;
         }
     }
 
     </style>
 </head>
-<body text="white">
+<body text="white" class="animate__animated animate__lightSpeedInLeft">
     <div class="main-content">
-        <div><img src="memoji-main.png" alt="memojo" style="width: 100px;"></div>
-        <div><h1> Hello there, </h1></div>
-        <div><p> I am Joshua Gavu, a frontend developer, a user interface and a user experience designer
-            who loves solving problems through building digital products for mobile devices and the web. 
+        <div><img src="favicon.png" alt="" width="70px"></div>
+        <div><p class="ex">Joshua Gavu</p></div>
+        <div class="x"><h1> Building digital products, creating awesome brand <strong class="ex">experiences</strong> </h1></div>
+        <div><p> A <strong>Product Designer</strong> and <strong>Frontend Web Developer</strong> from Accra, Ghana. I specialize in Product Design, UX/UI Design and Frontend Web Development
         </p>
         </div>
-        <a href="mailto:gavujoshua@gmail.com"><button class="email-button" type="button"> Email me </button></a>
+        <a href="mailto:gavujoshua@gmail.com"><button class="email-button" type="button"> Talk to me</button></a>
         <div>
             <div class="socials">
                 <a href="https://www.behance.net/joshuagavu" target="_blank"><img class="behance" src="be.png" alt="Behance" style="height: 30px; width:30px;"></a>
